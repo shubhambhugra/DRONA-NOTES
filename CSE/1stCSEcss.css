@@ -1,0 +1,173 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+
+.navbar-nav {
+    margin-left: 0px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* margin: auto; */
+}
+
+.intro {
+    margin-top: 80px;
+}
+
+.intro p {
+    box-shadow: 0 0 6px black;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 17.4px;
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 65%;
+    margin: auto;
+}
+
+.js-lottie-container {
+    width: 46%;
+    margin: 60px;
+    float: right;
+}
+
+.wholeSemcontainer {
+    display: flex;
+    margin-top: 40px;
+}
+
+#anotherbranches {
+    width: 30%;
+    margin: auto;
+}
+
+/* gourav*/
+
+
+/* main part */
+/*project*/
+
+.subject .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.subject .box-container .box {
+    position: relative;
+    flex: 1 1 25rem;
+    /*border-left: .3rem solid rgb(65, 200, 255);*/
+    /* padding-right: 3rem; */
+    box-shadow: 0 0 7px #6ac1ff;
+    border-radius: 10px;
+}
+
+.heading{
+    margin:15px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.subject .box-container .box .content {
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.subject .box-container .box .content:hover {
+    background: #cbe8fc;
+    color: #95d0fa;
+
+}
+
+.subject .box-container .box .content span {
+    color: #080606;
+    font-size: 1.7rem;
+    background: rgb(65, 179, 232);
+    border-radius: 50rem;
+    padding: .4rem 1rem;
+}
+
+.subject .box-container .box .content h3 {
+    font-size: 2.5rem;
+    padding: .5rem 0;
+    color: #111;
+}
+
+.subject .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.105em;
+}
+
+.text-center p {
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        left: -120%;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .js-lottie-container {
+        width: 40%;
+        margin: 15px;
+        margin-top: 8%;
+    }
+
+}
+
+@media (max-width:438px) {
+
+    html {
+        font-size: 60%;
+    }
+
+    .project .box-container .box {
+        padding-right: 0px;
+        font-size: 70%;
+    }
+
+    #aktulogo {
+        width: 65%;
+    }
+
+    .js-lottie-container {
+        width: 100%;
+    }
+
+    #wholeSemID {
+        margin-left: -15px;
+        margin-right: 12px;
+    }
+}

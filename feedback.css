@@ -1,0 +1,49 @@
+.modal-content {
+    border-radius: 2%;
+}
+
+.modal-dialog {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+
+.modal-header {
+    color: white;
+    background-color: #2c96e1;
+}
+
+.formName {
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+textarea {
+    border: none;
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.openmodal {
+    width: 17%;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.icon1 {
+    color: #007bff;
+}
+
+a {
+    margin: auto;
+}
+
+input {
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #1f6495;
+}

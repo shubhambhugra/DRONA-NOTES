@@ -24,12 +24,14 @@ textarea {
     border: none;
     box-shadow: none !important;
     outline: 0px !important;
+    padding: 6px;
 }
 
 .openmodal {
-    width: 17%;
+    width: 20%;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 .icon1 {
@@ -46,4 +48,29 @@ input {
 
 .btn-primary {
     background-color: #1f6495;
+}
+
+@media screen and (max-width: 720px) {
+    .openmodal {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .openmodal {
+        font-size: 15px;
+        letter-spacing: 2;
+        width: 30%;
+    }
+
+    .modal-dialog {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .openmodal {
+        letter-spacing: 0;
+        width: 34%;
+    }
 }
